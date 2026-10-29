@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/YoutubeCulvert.Abstractions/YoutubeCulvert.Abstractions.csproj" />
+    <Project Path="src/YoutubeCulvert.DependencyInjection/YoutubeCulvert.DependencyInjection.csproj" />
+    <Project Path="src/YoutubeCulvert.Telemetry/YoutubeCulvert.Telemetry.csproj" />
+    <Project Path="src/YoutubeCulvert.Testing/YoutubeCulvert.Testing.csproj" />
+    <Project Path="src/YoutubeCulvert/YoutubeCulvert.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/YoutubeCulvert.Tests/YoutubeCulvert.Tests.csproj" />
+  </Folder>
+</Solution>

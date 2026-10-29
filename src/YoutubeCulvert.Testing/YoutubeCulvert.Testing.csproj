@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>YoutubeCulvert.Testing</RootNamespace>
+    <AssemblyName>YoutubeCulvert.Testing</AssemblyName>
+    <Description>Test doubles for YoutubeCulvert: fake HTTP handler, in-memory auth store, recording middleware.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YoutubeCulvert\YoutubeCulvert.csproj" />
+  </ItemGroup>
+
+</Project>

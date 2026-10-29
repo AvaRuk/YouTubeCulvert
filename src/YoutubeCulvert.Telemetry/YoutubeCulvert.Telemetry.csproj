@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>YoutubeCulvert.Telemetry</RootNamespace>
+    <AssemblyName>YoutubeCulvert.Telemetry</AssemblyName>
+    <Description>ILogger and ActivitySource integration for YoutubeCulvert.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YoutubeCulvert\YoutubeCulvert.csproj" />
+    <ProjectReference Include="..\YoutubeCulvert.DependencyInjection\YoutubeCulvert.DependencyInjection.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
